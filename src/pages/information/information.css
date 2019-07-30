@@ -1,0 +1,114 @@
+.information {
+	
+}
+.information nav {
+	width: 100%;
+	position: fixed;
+	background: #fff;
+}
+.nav-blank {
+	height: 40px;
+}
+.information nav ul {
+	overflow: hidden;
+}
+.information nav ul li {
+	width: 25%;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	font-size: 13px;
+	text-align: center;
+	color: #666;
+}
+.information nav ul li.hover{
+	color: #3ca5b6;
+	position: relative;
+}
+.information nav ul li.hover:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	background: #3ca5b6;
+}
+.information .tab-wrapper ul {
+	display: none;
+}
+.information .tab-wrapper ul.show-box {
+	display: block;
+}
+
+.information .tab-wrapper ul li {
+	background: #fff;
+	padding:0 10px;
+	margin-bottom: 8px;
+}
+.information .tab-wrapper ul li .row-up {
+	overflow: hidden;
+	border-top: solid 1px #ddd;
+	border-bottom: solid 1px #ddd;
+	padding: 10px 0;
+}
+.information .tab-wrapper ul li .row-up .tu-lf {
+	width: 120px;
+	height: 84px;
+	float: left;
+}
+.information .tab-wrapper ul li .row-up .tu-lf img {
+	width: 100%;
+	height: 100%;
+}
+.information .tab-wrapper ul li .row-up .wz-rg {
+	width: 165px;
+	float: right;
+}
+.information .tab-wrapper ul li .row-up .wz-rg h3 {
+	margin: 0;
+	font-size: 12px;
+}
+.information .tab-wrapper ul li .row-up .wz-rg p {
+	margin: 0;
+	font-size: 12px;
+	color: #666;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.information .tab-wrapper ul li .row-dw {
+	overflow: hidden;
+	padding: 6px 0;
+}
+.information .tab-wrapper ul li .row-dw .sp-lf {
+	float: left;
+	font-size: 12px;
+	color: #999;
+}
+.information .tab-wrapper ul li .row-dw .sp-rg {
+	float: right;
+}
+.information .tab-wrapper ul li .row-dw .sp-rg .i-message {
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	background: url(../../img/information/i-message.png) no-repeat;
+	background-size: 100% 100%;
+	font-style: normal;
+}
+.information .tab-wrapper ul li .row-dw .sp-rg .i-num {
+	font-style: normal;
+	color: #3ca5b6;
+	font-size: 12px;
+	position: relative;
+	float: right;
+	margin: 2px 0 0 4px;
+}
+
+.box-blank {
+	height: 50px;
+}

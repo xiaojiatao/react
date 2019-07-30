@@ -1,0 +1,188 @@
+.work-broench {
+	
+}
+
+.work-bench .w-ban {
+	width: 100%;
+	height: 200px;
+	background: url(../../img/work/w-ban.jpg) no-repeat;
+	background-size: 100% 100%;
+	
+}
+
+.work-bench .w-ban .w-ban-title {
+	width: 100%;
+	height: 44px;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+	
+} 
+.work-bench .w-ban .w-ban-title .t-lf {
+	color: #fff;
+	font-size: 13px;
+	text-decoration: none;
+	display: inherit;
+	padding-left: 12px;
+	box-sizing: border-box;
+}
+.work-bench .w-ban .w-ban-title .t-lf .i-set{
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	background:url(../../img/work/w-set.png) no-repeat;
+	background-size: 100% 100%;
+	margin-right: 5px;
+}
+.work-bench .w-ban .w-ban-title .t-lf .i-wz{
+	font-style: normal;
+}
+.work-bench .w-ban .w-ban-title .t-center{
+	font-size: 16px;
+	color: #fff;
+}
+.work-bench .w-ban .w-ban-title .t-rg {
+	padding-right: 12px;
+	box-sizing: border-box;
+}
+.work-bench .w-ban .w-ban-title .t-rg .i-message {
+	width: 18px;
+	height: 13px;
+	display: inline-block;
+	background:url(../../img/work/w-message.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.work-bench .w-ban .w-ban-con {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	margin-top: 30px;
+}
+.work-bench .w-ban .w-ban-con .w-tu {
+	width: 64px;
+	height: 64px;
+	overflow: hidden;
+	border-radius: 100%;
+	border: solid 3px rgba(255,255,255,.6);
+	margin-bottom: 5px;
+}
+.work-bench .w-ban .w-ban-con .w-tu img{
+	width: 100%;
+	height: 100%;
+}
+.work-bench .w-ban .w-ban-con .w-text{
+	color: #fff;
+	font-size: 13px;
+}
+.work-bench .w-ban .w-ban-con .w-text span {
+	margin: 0 0 0 5px;
+}
+
+.work-bench .port-box {
+	background: #fff;
+	overflow: hidden;
+	padding: 17px 0 5px;
+}
+
+.work-bench .port-box li {
+	list-style: none;
+	width: 44%;
+	margin: 0 0 4% 4%;
+	background:#eee;
+	float: left;
+	text-align: center;
+	color: #fff;
+	padding: 8px 0;
+	height: 80px;
+    box-sizing: border-box;
+}
+.work-bench .port-box li.port-bg1 {
+	background: url(../../img/work/w-port1.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.work-bench .port-box li.port-bg2 {
+	background: url(../../img/work/w-port2.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.work-bench .port-box li.port-bg3 {
+	background: url(../../img/work/w-port3.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.work-bench .port-box li.port-bg4 {
+	background: url(../../img/work/w-port4.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+
+.work-bench .port-box li i.i-port1 {
+	width: 24px;
+	height: 25px;
+	display: inline-block;
+	background: url(../../img/work/port-icon1.png) no-repeat;
+	background-size: 100% 100%;
+}
+.work-bench .port-box li i.i-port2 {
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	background: url(../../img/work/port-icon2.png) no-repeat;
+	background-size: 100% 100%;
+}
+.work-bench .port-box li i.i-port3 {
+	width: 28px;
+	height: 22px;
+	display: inline-block;
+	background: url(../../img/work/port-icon3.png) no-repeat;
+	background-size: 100% 100%;
+}
+.work-bench .port-box li i.i-port4 {
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	background: url(../../img/work/port-icon4.png) no-repeat;
+	background-size: 100% 100%;
+}
+.work-bench .port-box li p {
+	margin: 0;
+}
+
+.work-bench .port-box li p.t-num span.name {
+	font-size:14px;
+}
+
+.work-bench .port-box li p.t-num span.total {
+	width: 14px;
+	height: 14px;
+	display: inline-block;
+	font-size: 12px;
+	color: #ff4040;
+	line-height: 13px;
+	background: #fff;
+	border-radius: 100%;
+	margin-left: 5px;
+	
+	
+	overflow: hidden;
+}
+
+.work-bench .port-box li p.e-title {
+	font-size: 11px;
+	font-style: oblique;
+}
+
+.work-bench .adv-box {
+	width: 100%;
+	height: 90px;
+}
+.work-bench .adv-box img {
+	width: 100%;
+	height: 100%;
+}
+.mT12{
+	margin-top:12px;
+}
+.box-blank {
+	height: 62px;
+}
